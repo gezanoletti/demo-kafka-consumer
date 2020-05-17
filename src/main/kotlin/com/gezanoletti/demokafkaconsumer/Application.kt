@@ -71,6 +71,7 @@ fun main() {
         println(e.message)
     } finally {
         consumer1.close()
+        consumer2.close()
     }
 
 }
